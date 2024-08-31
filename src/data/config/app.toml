@@ -100,7 +100,7 @@ default = 0
 title = "Enable Generative Fill"
 desc = """When enabled, fullart and extended templates will fill empty space using Generative Fill instead of Content Aware Fill. This feature will not work unless running the Photoshop BETA version."""
 type = "bool"
-default = 0
+default = 1
 
 [RENDER."Select.Variation"]
 title = "Select Generative Fill Variation"
