@@ -1541,7 +1541,8 @@ class BaseTemplate:
 
         # Reset document, return success
         if not ENV.TEST_MODE:
-            self.console.update(f"[b]{self.output_file_name.stem}[/b] rendered successfully!")
+            pass
+            #self.console.update(f"[b]{self.output_file_name.stem}[/b] rendered successfully!")
         self.reset()
         return True
 
